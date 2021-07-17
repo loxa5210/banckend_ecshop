@@ -1,0 +1,92 @@
+[
+  {
+    "categoryId": 1,
+    "name": "保養品",
+    "isChild": false,
+    "parentId": 0,
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 2,
+    "name": "臉部保養",
+    "isChild": true,
+    "parentId": 1,
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 3,
+    "name": "belif",
+    "isChild": true,
+    "parentId": 2,
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 4,
+    "name": "手部保養",
+    "isChild": true,
+    "parentId": 1,
+    "priority": 1,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 5,
+    "name": "基礎洗卸",
+    "isChild": true,
+    "parentId": 1,
+    "priority": 2,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 6,
+    "name": "特殊護理",
+    "isChild": true,
+    "parentId": 1,
+    "priority": 3,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 7,
+    "name": "流行服飾",
+    "isChild": false,
+    "parentId": 0,
+    "priority": 2,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 8,
+    "name": "初夏新品",
+    "isChild": true,
+    "parentId": 7,
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 9,
+    "name": "經典款專區",
+    "isChild": true,
+    "parentId": 7,
+    "priority": 1,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "categoryId": 10,
+    "name": "Timberland",
+    "isChild": true,
+    "parentId": 9,
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  }
+]

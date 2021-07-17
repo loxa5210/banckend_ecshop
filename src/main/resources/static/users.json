@@ -1,0 +1,35 @@
+[
+  {
+    "userId": 1,
+    "email":"loxa5210@gmail.com",
+    "username": "lili",
+    "password":"$2a$10$YFHURoIzO0w52fI7LC8J5OZKU.vED8hnDpHt3gueuegtRjkqpeW8G",
+    "creator": "loxa5210@gmail.com",
+    "modifier": "loxa5210@gmail.com",
+    "mobile" : "0912123456",
+    "status" : true
+
+  },
+  {
+    "userId": 2,
+    "email":"kevin@gmail.com",
+    "username": "kevin",
+    "password":"$2a$10$XYfXlz/2PYhnsM347YwtBeSm5k5N6BAA5dMXEsnzA.9NMGb/8nx9e",
+    "creator":"kevin@gmail.com",
+    "modifier":"kevin@gmail.com",
+    "mobile" : "0912123456",
+    "status" : true
+  },
+  {
+    "userId": 3,
+    "email":"apple@gmail.com",
+    "username": "apple",
+    "password":"$2a$10$jdlB.n6AIw4RNaV1RVe.du8IP0zia5Q8aHp12rD66kkRt1YPnjn3S",
+    "creator": "apple@gmail.com",
+    "modifier": "apple@gmail.com",
+    "mobile" : "0912123456",
+    "status" : false
+
+  }
+
+]

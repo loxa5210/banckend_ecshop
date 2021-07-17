@@ -1,0 +1,68 @@
+[
+  {
+    "menuId": 1,
+    "name": "會員管理",
+    "isChild": false,
+    "parentId":0,
+    "priority": 0
+  },
+  {
+    "menuId": 2,
+    "name": "會員列表",
+    "isChild" : true,
+    "parentId": 1,
+    "path" : "member",
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "menuId": 3,
+    "name":"權限管理",
+    "isChild": false,
+    "parentId": 0,
+    "priority" : 1,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "menuId": 4,
+    "name": "權限列表",
+    "isChild": true,
+    "parentId":3,
+    "path" : "authority",
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "menuId": 5,
+    "name": "商品管理",
+    "isChild": false,
+    "parentId": 0,
+    "priority": 2,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "menuId": 6,
+    "name": "商品列表",
+    "isChild" : true,
+    "parentId": 5,
+    "path" : "goods",
+    "priority": 0,
+    "creator": 1,
+    "modifier": 1
+  },
+  {
+    "menuId": 7,
+    "name":"商品分類",
+    "isChild": true,
+    "parentId": 5,
+    "path" : "category",
+    "priority": 1,
+    "creator": 1,
+    "modifier": 1
+  }
+
+]
