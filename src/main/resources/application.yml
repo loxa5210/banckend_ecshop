@@ -20,4 +20,5 @@ server:
 
 #前端網址
 viewUrl:
-  http://localhost:8080
+  https://loxa5210.github.io/,http://localhost:8080
+
