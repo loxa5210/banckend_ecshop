@@ -15,8 +15,8 @@ spring:
     init:
       encoding: UTF-8
 
-server:
-  port: 9099
+#server:
+#  port: 9099
 
 #前端網址
 viewUrl:
