@@ -1,15 +1,22 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    username: sytnfsbcglnplq
-    password: df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65
-    url: jdbc:postgres://sytnfsbcglnplq:df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65@ec2-3-237-55-151.compute-1.amazonaws.com:5432/de5ll7g57561i2
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=backend
+    username: postgres
+    password: 123456
+
+#    username: sytnfsbcglnplq
+#    password: df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65
+#    url: jdbc:postgres://sytnfsbcglnplq:df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65@ec2-3-237-55-151.compute-1.amazonaws.com:5432/de5ll7g57561i2
 ##本機測試
 #    driver-class-name: org.h2.Driver
 #    url: jdbc:h2:mem:testdb
   jpa:
     show-sql: true
-##本機測試
+    hibernate:
+      ddl-auto: create-drop
+
+  ##本機測試
 #  h2:
 #    console:
 #      enabled: true
