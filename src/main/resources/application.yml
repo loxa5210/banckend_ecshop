@@ -3,7 +3,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: sytnfsbcglnplq
     password: df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65
-    url: postgres://sytnfsbcglnplq:df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65@ec2-3-237-55-151.compute-1.amazonaws.com:5432/de5ll7g57561i2
+    url: jdbc:postgres://sytnfsbcglnplq:df43ee98777125ebda4cac4b6e0d917f36e424fe065aca6c74ebfe91a8270e65@ec2-3-237-55-151.compute-1.amazonaws.com:5432/de5ll7g57561i2
 ##本機測試
 #    driver-class-name: org.h2.Driver
 #    url: jdbc:h2:mem:testdb
