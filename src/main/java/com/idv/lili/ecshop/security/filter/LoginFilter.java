@@ -34,6 +34,8 @@ public class LoginFilter extends OncePerRequestFilter {
 	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws ServletException, IOException {
 		String authorization = request.getHeader("Authorization");
 
+		log.debug("authorization : "+ authorization);
+
 		if (StringUtils.isNotBlank(authorization)) {
 
 			Claims claims = JwtUtil.parse(authorization);
