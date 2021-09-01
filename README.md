@@ -1,5 +1,5 @@
 # banckend_ecshop
-
+後台網頁 https://loxa5210.github.io/banckend_ecShopByVue/
 
 [![versionspringboot](https://img.shields.io/badge/springboot-2.5.0_RELEASE-brightgreen.svg?logo=spring)](https://github.com/spring-projects/spring-boot)
 [![versionspringboot](https://img.shields.io/badge/springboot-security-brightgreen.svg?logo=spring)](https://github.com/spring-projects/spring-boot)
